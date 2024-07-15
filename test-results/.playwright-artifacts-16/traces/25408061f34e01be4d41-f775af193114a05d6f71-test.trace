@@ -1,0 +1,32 @@
+{"version":7,"type":"context-options","origin":"testRunner","browserName":"","options":{},"platform":"win32","wallTime":1721046162185,"monotonicTime":844.705,"sdkLanguage":"javascript"}
+{"type":"before","callId":"hook@1","startTime":855.021,"class":"Test","method":"step","apiName":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"hook@2","parentId":"hook@1","startTime":856.212,"class":"Test","method":"step","apiName":"beforeEach hook","params":{},"stack":[{"file":"C:\\Users\\dines\\Golf-District\\test\\Login.test.spec.ts","line":11,"column":10}]}
+{"type":"before","callId":"fixture@3","parentId":"hook@2","startTime":865.664,"class":"Test","method":"step","apiName":"fixture: browser","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@4","parentId":"fixture@3","startTime":870.071,"class":"Test","method":"step","apiName":"browserType.launch","params":{"handleSIGINT":"false","headless":"true","tracesDir":"C:\\Users\\dines\\Golf-District\\test-results\\.playwright-artifacts-16\\traces","ignoreDefaultArgs":"undefined","ignoreAllDefaultArgs":"false","env":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@4","endTime":1075.627,"attachments":[]}
+{"type":"after","callId":"fixture@3","endTime":1076.002,"attachments":[]}
+{"type":"before","callId":"fixture@5","parentId":"hook@2","startTime":1077.612,"class":"Test","method":"step","apiName":"fixture: context","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@6","parentId":"fixture@5","startTime":1080.435,"class":"Test","method":"step","apiName":"browser.newContext","params":{"acceptDownloads":"accept","bypassCSP":"false","colorScheme":"light","hasTouch":"false","ignoreHTTPSErrors":"false","isMobile":"false","javaScriptEnabled":"true","locale":"en-US","offline":"false","viewport":"Object","baseURL":"https://stage1.golfdistrict.in/","serviceWorkers":"allow","recordVideo":"Object","noDefaultViewport":"false","extraHTTPHeaders":"undefined","storageState":"undefined","recordHar":"undefined","reducedMotion":"undefined","forcedColors":"undefined"},"stack":[]}
+{"type":"after","callId":"pw:api@6","endTime":1092.847,"attachments":[]}
+{"type":"after","callId":"fixture@5","endTime":1105.143,"attachments":[]}
+{"type":"before","callId":"fixture@7","parentId":"hook@2","startTime":1106.358,"class":"Test","method":"step","apiName":"fixture: page","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@8","parentId":"fixture@7","startTime":1110.535,"class":"Test","method":"step","apiName":"browserContext.newPage","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@8","endTime":1437.328,"attachments":[]}
+{"type":"after","callId":"fixture@7","endTime":1437.596,"attachments":[]}
+{"type":"before","callId":"pw:api@9","parentId":"hook@2","startTime":1440.837,"class":"Test","method":"step","apiName":"page.goto","params":{"url":"https://stage1.golfdistrict.in/","waitUntil":"load"},"stack":[{"file":"C:\\Users\\dines\\Golf-District\\test\\Login.test.spec.ts","line":14,"column":20}]}
+{"type":"after","callId":"pw:api@9","endTime":2343.449,"attachments":[]}
+{"type":"after","callId":"hook@2","endTime":2343.791,"attachments":[]}
+{"type":"after","callId":"hook@1","endTime":2344.428,"attachments":[]}
+{"type":"before","callId":"pw:api@10","startTime":2355.632,"class":"Test","method":"step","apiName":"locator.click","params":{"selector":"internal:testid=[data-testid=\"course-id\"s]","strict":"true"},"stack":[{"file":"C:\\Users\\dines\\Golf-District\\page\\LandingPage.page.ts","line":13,"column":50,"function":"LandingPage.clickOnCourse"}]}
+{"type":"after","callId":"pw:api@10","endTime":2875.944,"attachments":[]}
+{"type":"before","callId":"pw:api@11","startTime":2885.198,"class":"Test","method":"step","apiName":"locator.click","params":{"selector":"//button[@data-testid='signin-button-id']","strict":"true"},"stack":[{"file":"C:\\Users\\dines\\Golf-District\\page\\LandingPage.page.ts","line":18,"column":52,"function":"LandingPage.clickOnSignIn"}]}
+{"type":"after","callId":"pw:api@11","endTime":13307.368,"attachments":[]}
+{"type":"before","callId":"pw:api@12","startTime":13311.159,"class":"Test","method":"step","apiName":"page.waitForTimeout","params":{"timeout":"5000"},"stack":[{"file":"C:\\Users\\dines\\Golf-District\\test\\Login.test.spec.ts","line":21,"column":20}]}
+{"type":"after","callId":"pw:api@12","endTime":18353.338,"attachments":[]}
+{"type":"before","callId":"pw:api@13","startTime":18358.763,"class":"Test","method":"step","apiName":"locator.fill","params":{"selector":"//input[@data-testid='login-email-id']","value":"rilame5550@exeneli.com","strict":"true"},"stack":[{"file":"C:\\Users\\dines\\Golf-District\\page\\Login.page.ts","line":14,"column":49,"function":"LoginPage.enterUsername"}]}
+{"type":"after","callId":"pw:api@13","endTime":18406.728,"attachments":[]}
+{"type":"before","callId":"pw:api@14","startTime":18408.773,"class":"Test","method":"step","apiName":"page.waitForTimeout","params":{"timeout":"5000"},"stack":[{"file":"C:\\Users\\dines\\Golf-District\\test\\Login.test.spec.ts","line":24,"column":20}]}
+{"type":"after","callId":"pw:api@14","endTime":23424.474,"attachments":[]}
+{"type":"before","callId":"pw:api@15","startTime":23426.353,"class":"Test","method":"step","apiName":"locator.fill","params":{"selector":"//input[@data-testid='login-password-id']","value":"Test123@#","strict":"true"},"stack":[{"file":"C:\\Users\\dines\\Golf-District\\page\\Login.page.ts","line":18,"column":52,"function":"LoginPage.enterPassword"}]}
+{"type":"after","callId":"pw:api@15","endTime":23481.701,"attachments":[]}
+{"type":"before","callId":"pw:api@16","startTime":23483.33,"class":"Test","method":"step","apiName":"locator.click","params":{"selector":"//input[@data-testid='login-button-id']","strict":"true"},"stack":[{"file":"C:\\Users\\dines\\Golf-District\\page\\Login.page.ts","line":23,"column":51,"function":"LoginPage.clickLoginButon"}]}
